@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: red; */
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?cosmos,universe');
+    font-size: 120%;
+}
+
+.holder{
+    background: rgba(29, 29, 29, 0.800);
+    padding: 2em;
+    margin: 1em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+}
+
+.search-city{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 35px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: revert;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.search button{
+
+    margin: 0.8em;
+    width: 40px;
+    height: 40px;
+    border-radius: 150px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+}
+
+div.search button:hover{
+    background: #7c7c7c00;
+    transition: 0.3s ease-in-out;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin: 12px 20px;
+}
+
+.description{
+    margin-left: 9px;
+}
+
+.visible{
+    visibility: hidden;
+}

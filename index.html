@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="holder">
+        <div class="search">
+            <input type="text" class="search-city" placeholder="Search City">
+            <button type="submit"><i class="fa fa-search" id="btn"></i></button>
+        </div>
+        <div class="weatherInfo visible" id="wea">
+            <h1 class="city">Weather in Denver, USA</h1>
+            <h2 class="temperature">50°C</h2>
+            <div class="info">
+                <img src="weather-app.png" alt="" style="width: 45px; height: 45px;">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 50%</div>
+            <div class="wind">Wind speed: 50km/h</div>
+
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
